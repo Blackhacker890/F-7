@@ -22,8 +22,8 @@ import os
 
 try:
 
-	import requestsexcept ImportError:
-
+	import concurrent.futures
+       except ImportError:
 	os.system("pip install requests")
 
 try:
